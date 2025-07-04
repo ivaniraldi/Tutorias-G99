@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.grid-container{
+    display: grid;
+    border: 1px solid green;
+    grid-template-columns: auto auto auto;
+    column-gap: 25px;
+    row-gap: 10px;
+}
+
+.grid-item{     
+    border: 1px solid blue;
+}
+
+
+.main-container{
+    display:grid;
+    grid-template-areas: 
+    "navbar navbar navbar"
+    "filtros main ads"
+    "footer footer footer"
+    ;
+    height: 100vh;
+    grid-template-rows: 1fr 7fr 1fr;
+    grid-template-columns: 2fr 6fr 1fr;
+}
+
+.navbar{
+    grid-area: navbar;
+    border: 1px solid red;
+    display: flex;
+
+}
+.navbar, ul{
+    display: flex;
+    list-style-type: none;
+    gap: 10px;
+    justify-content: space-around;
+}
+.filtros{
+    grid-area: filtros;
+    border: 1px solid orange;
+    display: flex;
+    flex-direction: column;
+}
+.ads-menu{
+    grid-area: ads;
+    border: 1px solid blue;
+    display: flex;
+    flex-direction: column;
+}
+.main-content{
+    grid-area: main;
+    border: 1px solid green
+}
+.pie-pagina{
+    grid-area: footer;
+    border: 1px solid red;
+    display:flex;
+    justify-content: space-between;
+    padding: 10px;
+}

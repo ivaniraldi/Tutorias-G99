@@ -1,0 +1,170 @@
+/* --- CONFIGURACIÓN GENERAL Y VARIABLES --- */
+
+/* Usamos :root para declarar variables de CSS. 
+   Esto facilita mantener la consistencia de colores y fuentes en todo el sitio. */
+:root {
+    --primary-color: #4CAF50; /* Un verde fresco y apetitoso */
+    --secondary-color: #333; /* Un gris oscuro para el texto principal */
+    --background-color: #f8f9fa; /* Un fondo muy claro para no cansar la vista */
+    --surface-color: #ffffff; /* El color de fondo para las "tarjetas" */
+    --accent-color: #FFC107; /* Un color de acento para detalles */
+    --main-font: 'Poppins', sans-serif; /* La fuente que importamos de Google */
+}
+
+/* Reseteo básico para eliminar los estilos por defecto del navegador */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    /* Habilita un desplazamiento suave al hacer clic en los enlaces del menú */
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: var(--main-font);
+    background-color: var(--background-color);
+    color: var(--secondary-color);
+    line-height: 1.6; /* Mejora la legibilidad del texto */
+
+    /* --- LAYOUT PRINCIPAL CON CSS GRID --- */
+    display: grid;
+    /* Definimos una sola columna que ocupa todo el ancho */
+    grid-template-columns: 1fr; 
+    /* El header y footer tienen altura automática, el main ocupa el resto del espacio */
+    grid-template-rows: auto 1fr auto; 
+    /* Definimos los nombres de las áreas de nuestra plantilla */
+    grid-template-areas: 
+        "header"
+        "main"
+        "footer";
+    min-height: 100vh; /* Aseguramos que el body ocupe al menos toda la altura de la pantalla */
+}
+
+
+/* --- ASIGNACIÓN DE ÁREAS Y ESTILOS DE SECCIONES PRINCIPALES --- */
+
+/* Asignamos cada elemento principal a su área de la grilla */
+.site-header { grid-area: header; }
+.site-main { grid-area: main; }
+.site-footer { grid-area: footer; }
+
+.site-header {
+    display: flex; /* Usamos flexbox para alinear el título y la navegación */
+    justify-content: space-between; /* Espacio entre el título y el menú */
+    align-items: center;
+    padding: 1rem 2rem; /* Espaciado interno */
+    background-color: var(--primary-color);
+    color: white;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Sombra sutil */
+}
+
+.site-title {
+    font-weight: 700;
+}
+
+.site-nav ul {
+    list-style: none; /* Quitamos los puntos de la lista */
+    display: flex;
+    gap: 1.5rem; /* Espacio entre los elementos del menú */
+}
+
+.site-nav a {
+    color: white;
+    text-decoration: none; /* Quitamos el subrayado */
+    font-weight: 600;
+    transition: color 0.3s ease; /* Transición suave para el hover */
+}
+
+.site-nav a:hover {
+    color: var(--accent-color); /* Cambia de color al pasar el ratón */
+}
+
+.site-main {
+    padding: 2rem; /* Espaciado interno para el contenido principal */
+}
+
+.welcome-section {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.welcome-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+    color: var(--primary-color);
+}
+
+.menu-section .section-title {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    border-bottom: 3px solid var(--primary-color);
+    display: inline-block;
+    padding-bottom: 0.5rem;
+}
+
+.menu-category {
+    margin-bottom: 3rem;
+}
+
+.menu-category h3 {
+    font-size: 1.5rem;
+    color: var(--secondary-color);
+    margin-bottom: 1.5rem;
+}
+
+/* --- GRILLA DE PLATOS RESPONSIVA --- */
+.menu-grid {
+    display: grid;
+    /* Aquí está la magia de la grilla responsiva:
+       - 'repeat(auto-fit, ...)' crea tantas columnas como quepan.
+       - 'minmax(300px, 1fr)' dice que cada columna debe tener un mínimo 
+         de 300px, y si hay espacio extra, se repartirá equitativamente (1fr).
+    */
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem; /* Espacio entre las tarjetas de los platos */
+}
+
+/* Estilos para cada 'tarjeta' de plato */
+.menu-item {
+    background-color: var(--surface-color);
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Sombra para dar profundidad */
+    overflow: hidden; /* Asegura que la imagen no se salga de los bordes redondeados */
+    display: flex;
+    flex-direction: column; /* Apila la imagen sobre el contenido */
+    transition: transform 0.3s ease; /* Animación suave al pasar el ratón */
+}
+
+.menu-item:hover {
+    transform: translateY(-5px); /* Eleva la tarjeta ligeramente */
+}
+
+.menu-item img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover; /* Asegura que la imagen cubra el espacio sin deformarse */
+}
+
+.menu-item .item-content {
+    padding: 1.5rem; /* Espaciado interno para el texto */
+    flex-grow: 1; /* Permite que el contenido crezca para igualar alturas si es necesario */
+}
+
+.menu-item h4 {
+    margin-bottom: 0.5rem;
+    color: var(--primary-color);
+    font-size: 1.2rem;
+}
+
+/* --- ESTILOS DEL FOOTER --- */
+.site-footer {
+    padding: 2rem;
+    background-color: var(--secondary-color);
+    color: white;
+    text-align: center;
+    font-size: 0.9rem;
+}
