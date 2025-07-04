@@ -4,12 +4,16 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tutoria CSS Grid</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body class="main-container">
     <nav class="navbar">
         <div>
-          <h1>LOGO</h1>
+          <h1 class="logo">AdoptaUnaVida</h1>
         </div>
         <div>
           <ul>
@@ -43,16 +47,99 @@
       <div>
         <h1>Adopta una vida!</h1>
         <div class="grid-container">
-          <div class="grid-item">Perrito</div>
-          <div class="grid-item">Gatito</div>
-          <div class="grid-item">Tortuga</div>
+          <div class="grid-item">
+            <img class="card-img" src="https://plus.unsplash.com/premium_photo-1676389281733-aaefab0e7907?q=80&w=386&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+            <h4 class="card-title">Lupe - 4 Años</h4>
+            <ul class="card-list">
+                <li>Especie: Perro</li>
+                <li>Color: Blanco y negro</li>
+                <li>Temperamento: Traquil@</li>
+            </ul>
+          </div>
+          <div class="grid-item">
+            <img class="card-img" src="https://images.unsplash.com/photo-1698170923464-e46a80163f0c?q=80&w=387&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+            <h4 class="card-title">Pipo - 2 Años</h4>
+            <ul class="card-list">
+                <li>Especie: Gato</li>
+                <li>Color: naranja</li>
+                <li>Temperamento: Hiperactivo</li>
+            </ul>
+          </div>
+          <div class="grid-item">
+            <img class="card-img" src="https://images.unsplash.com/photo-1728338404937-50935e459051?q=80&w=812&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+            <h4 class="card-title">Linlin - 59 Años</h4>
+            <ul class="card-list">
+                <li>Especie: Tortuga</li>
+                <li>Color: n/a</li>
+                <li>Temperamento: Peligroso</li>
+            </ul>
+          </div>
+          <div class="grid-item">
+            <img class="card-img" src="https://plus.unsplash.com/premium_photo-1676389281733-aaefab0e7907?q=80&w=386&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+            <h4 class="card-title">Lupe - 4 Años</h4>
+            <ul class="card-list">
+                <li>Especie: Canino</li>
+                <li>Color: Blanco y negro</li>
+                <li>Temperamento: Traquil@</li>
+            </ul>
+          </div>
+          <div class="grid-item">
+            <img class="card-img" src="https://plus.unsplash.com/premium_photo-1676389281733-aaefab0e7907?q=80&w=386&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+            <h4 class="card-title">Lupe - 4 Años</h4>
+            <ul class="card-list">
+                <li>Especie: Canino</li>
+                <li>Color: Blanco y negro</li>
+                <li>Temperamento: Traquil@</li>
+            </ul>
+          </div>
+                    <div class="grid-item">
+            <img class="card-img" src="https://plus.unsplash.com/premium_photo-1676389281733-aaefab0e7907?q=80&w=386&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+            <h4 class="card-title">Lupe - 4 Años</h4>
+            <ul class="card-list">
+                <li>Especie: Canino</li>
+                <li>Color: Blanco y negro</li>
+                <li>Temperamento: Traquil@</li>
+            </ul>
+          </div>
+                    <div class="grid-item">
+            <img class="card-img" src="https://plus.unsplash.com/premium_photo-1676389281733-aaefab0e7907?q=80&w=386&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+            <h4 class="card-title">Lupe - 4 Años</h4>
+            <ul class="card-list">
+                <li>Especie: Canino</li>
+                <li>Color: Blanco y negro</li>
+                <li>Temperamento: Traquil@</li>
+            </ul>
+          </div>
+                    <div class="grid-item">
+            <img class="card-img" src="https://plus.unsplash.com/premium_photo-1676389281733-aaefab0e7907?q=80&w=386&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+            <h4 class="card-title">Lupe - 4 Años</h4>
+            <ul class="card-list">
+                <li>Especie: Canino</li>
+                <li>Color: Blanco y negro</li>
+                <li>Temperamento: Traquil@</li>
+            </ul>
+          </div>
+                    <div class="grid-item">
+            <img class="card-img" src="https://plus.unsplash.com/premium_photo-1676389281733-aaefab0e7907?q=80&w=386&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+            <h4 class="card-title">Lupe - 4 Años</h4>
+            <ul class="card-list">
+                <li>Especie: Canino</li>
+                <li>Color: Blanco y negro</li>
+                <li>Temperamento: Traquil@</li>
+            </ul>
+          </div>
+
         </div>
       </div>
     </main>
 
     <menu class="ads-menu">
+        <div>
+            
+             <img class="ad" src="https://images.unsplash.com/photo-1672876529912-3c0bd65940ba?q=80&w=387&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+            <img class="ad" src="https://images.unsplash.com/photo-1604544203292-0daa7f847478?q=80&w=327&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+        </div>
       <h4>Anuncios y patrocinadores</h4>
-      <div></div>
     </menu>
     
 
@@ -65,7 +152,7 @@
             </ul>
         </div>
         <div>
-            <h4>2025 AdoptaUnaVida.org</h4>
+            <h4 class="footer-title">2025 AdoptaUnaVida.org</h4>
         </div>
     </footer>
   </body>
