@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        display: grid;
+        grid-template-areas:
+          "nav"
+          "main"
+          "foot";
+        height: 100vh;
+        grid-template-rows: 80px 1fr 70px;
+      }
+      .navigation {
+        grid-area: nav;
+        border: 1px solid red;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+      }
+      .content {
+        grid-area: main;
+        border: 1px solid blue;
+      }
+      .footer {
+        grid-area: foot;
+        border: 1px solid orange;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .imagen{
+        width: 200px;
+        height: 200px;
+        object-fit: cover;
+        filter: grayscale(100%);
+        transition: filter 1s ease;
+      }
+
+      .imagen:hover{
+        filter: grayscale(0%);
+      }
+
+      @media (min-width: 992px) {
+        body {
+          grid-template-areas:
+            "nav main"
+            "foot foot";
+          grid-template-rows: 1fr 70px;
+          grid-template-columns: 200px 1fr;
+        }
+        .navigation {
+          display: flex;
+          flex-direction: column;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="navigation">
+      <a href="#">Inicio</a>
+      <a href="#">Sobre nosotros</a>
+      <a href="#">Contacto</a>
+    </nav>
+    <main class="content"><h1>contenido principal</h1>
+    <img class="imagen" src="https://random.dog/6be64b1b-8925-40e2-83cd-9291efb6165b.jpg" alt=""></main>
+    <footer class="footer">pie de pagina</footer>
+  </body>
+</html>

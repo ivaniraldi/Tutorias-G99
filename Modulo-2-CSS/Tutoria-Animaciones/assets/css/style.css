@@ -1,0 +1,56 @@
+button {
+  background-color: #0077ff;
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  transform: skew(0deg);
+  transition: all 0.3s ease-out;
+}
+
+button:hover {
+  background-color: rgb(255, 140, 0);
+  transform: skew(45deg);
+}
+
+.titulo {
+  font-size: 24px;
+  background-color: aquamarine;
+  transition: all 3s ease 0s;
+}
+
+.titulo:hover {
+  font-size: 32px;
+  background-color: rgb(189, 111, 209);
+}
+
+.img-div {
+  width: 100px;
+  height: 100px;
+  background-image: url("https://purr.objects-us-east-1.dream.io/i/qtmapmb.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  position: relative;
+  animation-name: cualquiera;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes cualquiera {
+  from {
+    left: 0px;
+  }
+  to {
+    left: 200px;
+  }
+  /* La animación moverá la caja de 0px a 200px a la izquierda */
+}
+
