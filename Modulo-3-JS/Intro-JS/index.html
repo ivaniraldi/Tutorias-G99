@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tutoria Intro JS</title>
+</head>
+<body>
+   <h1></h1> 
+
+   <h2 id="subtitulo"></h2>
+
+   <h3 class="subtitulo2"></h3>
+
+   <button
+   onclick="
+   console.log('Hice click al boton =D')
+   let nuestroSubtitulo = document.querySelector('.subtitulo2')
+   nuestroSubtitulo.style.color = 'green'
+   "
+   >Cambiar color al segundo subtitulo</button>
+
+
+   <h2 id="numero">0</h2>
+
+   <button
+   onclick="
+   let etiquetaNumero = document.querySelector('#numero')
+   let valor = Number(etiquetaNumero.innerHTML)
+   etiquetaNumero.innerHTML = valor + 1
+   "
+   > Sumar 1 </button>
+
+   <button id="btnRestar">Restar 1</button>
+
+    <script>
+        console.log("Esto esta corriendo desde el html")
+    </script>
+    <script src="./test.js"></script>
+</body>
+</html>
