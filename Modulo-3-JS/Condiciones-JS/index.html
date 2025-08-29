@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>Tutoría de JS - Condiciones</title>
+  </head>
+  <body>
+    <h1 class="text-3xl text-center font-bold underline my-3">
+      Condiciones en JavaScript
+    </h1>
+
+    <div>
+      <label for="number1">Ingrese el numero 1</label>
+      <select name="num1" id="number1">
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+      </select>
+
+      <br />
+      <label for="number2">Ingrese el numero 2</label>
+      <select name="num2" id="number2">
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+      </select>
+
+      <button
+        onclick="
+        let numero1= Number(document.querySelector('#number1').value)
+        let numero2= Number(document.querySelector('#number2').value)
+        
+        let res = numero1+numero2
+
+        let h2 = document.querySelector('#resultado')
+
+            if(res > 4){
+                h2.innerHTML = 'Te pasaste'
+            }else{
+                h2.innerHTML = res
+            }
+
+        
+
+        console.log(numero1 + numero2)
+        "
+      >
+        Sumar
+      </button>
+      <h2 id="resultado"></h2>
+    </div>
+
+    <div class="flex justify-center">
+      <button
+        class="p-2 border border-1 border-black bg-slate-300 rounded-md"
+        onclick="
+        let body = document.querySelector('body')
+        if(body.style.color == 'black'){
+            body.style.backgroundColor = 'black'
+            body.style.color = 'white'
+        }else{
+            body.style.backgroundColor = 'white'
+            body.style.color = 'black'
+        }
+        "
+      >
+        Modo oscuro/claro
+      </button>
+    </div>
+
+    <script>
+      //let num1 = prompt("Ingrese el primer num")
+      //let num2 = prompt("Ingrese el segundo num")
+      //alert(num1+num2)
+      let edad = 1;
+      //let edad = prompt("Ingrese su edad") // "18"
+      let edadANumero = Number(edad);
+      // == comparador de igualdad
+      // === comparador estricto de igualdad
+        /*
+      let password = prompt("Ingrese la contraseña")
+        let passwordNumerica = Number(password)
+      // 18 == "18" = true
+      // 18 === "18" = false
+      if (passwordNumerica === 321) {
+        alert("Contraseña 1 correcta!");
+      } else if (passwordNumerica === 456){
+        alert("Contraseña 2 correcta!")
+      } else if (passwordNumerica === 789){
+        alert("Contraseña 3 correcta!")
+      }else{
+        alert("Ninguna contraseña coincide, Intentalo de nuevo.")
+      }
+        */
+        // El operador && (AND) Evalua que todas las condiciones devuelvan true
+        // El operador || (OR) Evalua que alguna de las condiciones devuelva true
+        let username = "ivaniraldi"
+        let password = "321231231321"
+
+        if(password === "123123" || password === "321321"){
+            alert("Iniciaste sesión")
+        }else{
+            alert("Credenciales incorrectas.")
+        }
+
+        // Operador TERNARIO
+        // (condicion == true) ? "si es true devuelve esto" : "si es false devuelve esto otro"
+
+        let nombre = "José"
+
+        nombre == "Ivan" ? alert("Hola Ivan!") : alert("Usuario desconocido");
+
+
+    </script>
+  </body>
+</html>
