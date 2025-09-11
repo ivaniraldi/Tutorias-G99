@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arreglos y Objetos - JS</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <style>
+        *{
+             font-family: "Montserrat", sans-serif;
+        }
+        .grilla-productos{
+            display: grid;
+            padding: 20px;
+            grid-template-columns: repeat(3, auto);
+            justify-items: center;
+        }
+        .card{
+            width: 350px;
+            border: 2px solid #2c2c2c;
+            border-radius: 10px;
+        }
+        .card-img{
+            width: 100%;
+            height: 200px;
+            object-fit: contain;
+            overflow: hidden;
+        }
+        .card-title{
+            text-align: center;
+            margin-top: 8px;
+            text-decoration: underline;
+        }
+        .card-price{
+            text-align: end;
+            font-weight: 800;
+            font-size: 20px;
+            margin-right: 20px;
+        }
+        .card-btn{
+            background-color: #a4d495;
+            padding: 15px;
+            border: 2px solid rgb(99, 138, 99);
+            border-radius: 10px;
+            margin-bottom: 15px;
+        }
+
+    </style>
+</head>
+<body>
+    <h1 style="text-align: center; text-decoration: underline;"> Arreglos y Objetos - JavaScript</h1>
+
+    <h2>Productos en venta:</h2>
+
+    <div id="grilla" class="grilla-productos">
+
+
+
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
