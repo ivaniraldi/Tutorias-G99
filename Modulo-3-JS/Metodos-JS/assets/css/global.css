@@ -1,0 +1,15 @@
+      body {
+        font-family: "Inter", sans-serif;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        background-color: #1b1b1b;
+        color: white
+      }
+      h1 {
+        border-bottom: 1px solid white;
+        width: 100%;
+        text-align: center;
+        padding-bottom: 8px;
+        margin-bottom: 8px;
+      }
