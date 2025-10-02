@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Raleway", sans-serif;
+}
+body{
+    background-color: #252525;
+    color: white;
+}
+a{
+    color: gray;
+}
+h1{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid white;
+}
+h2{
+    margin-left: 24px;
+    margin-top: 10px;
+    text-decoration: underline;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    margin: 24px;
+    border: 1px solid white;
+    padding: 16px;
+}
+.card{
+    border: 1px solid white;
+    border-radius: 10%;
+    padding: 16px;
+}
+.error{
+    color: rgb(175, 0, 0)
+}
+
+.grillaContainer{
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    gap: 20px;
+    justify-items: center;
+}
