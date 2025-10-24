@@ -10,7 +10,9 @@ function App() {
 
   const unidad = "Modulo de React"
   const clase = true
-  const numeroDeDesafios = 8
+  const numeroDeDesafios = 80000000
+
+  let numeroFormateado = numeroDeDesafios.toLocaleString()
 
   console.log("Hola desde el componente App.jsx")
 
@@ -27,14 +29,14 @@ function App() {
           <h2>Info del curso:</h2>
           <p>{unidad}</p>
           <p>Estamos en tutoria?: {clase == true? "No" : "Si"} </p>
-          <p>Este modulo tiene {numeroDeDesafios} desafios</p>
+          <p>Este modulo tiene {numeroDeDesafios.toLocaleString()} desafios</p>
         </div>
 
         <h2>Lista</h2>
         <ul>
           <li>Item 1 { unidad }</li>
           <li>Item 2 { clase == true ? "Estamos en clase" : "Estamos en tutoria" }</li>
-          <li>Item 3 Este modulo tiene {numeroDeDesafios} desafios</li>
+          <li>Item 3 Este modulo tiene {numeroFormateado} desafios</li>
         </ul>
 
         <Boton numero="1" color="btn-danger" estamosEnClase={clase} ></Boton>
