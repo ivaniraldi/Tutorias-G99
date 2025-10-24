@@ -1,0 +1,33 @@
+*{
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: "Raleway", sans-serif;
+  background-color: #1b1b1b;
+  color: white;
+}
+
+h1{
+  text-align: center;
+}
+
+.titulo{
+  text-decoration: underline;
+}
+
+#titulo{
+  margin-top: 20px;
+}
+
+.precio{
+  text-align: end !important;
+}
+
+.divCartas{
+  display: grid; 
+  grid-template-columns: auto auto auto;
+  gap: 20px;
+  justify-items: center;
+}
