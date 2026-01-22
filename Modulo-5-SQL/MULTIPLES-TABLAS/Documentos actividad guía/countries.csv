@@ -1,0 +1,251 @@
+id,name,iso3,capital,currency,currency_name,tld,region,subregion,latitude,longitude
+1,Afghanistan,AFG,Kabul,AFN,Afghan afghani,.af,Asia,Southern Asia,33.00000000,65.00000000
+2,Aland Islands,ALA,Mariehamn,EUR,Euro,.ax,Europe,Northern Europe,60.11666700,19.90000000
+3,Albania,ALB,Tirana,ALL,Albanian lek,.al,Europe,Southern Europe,41.00000000,20.00000000
+4,Algeria,DZA,Algiers,DZD,Algerian dinar,.dz,Africa,Northern Africa,28.00000000,3.00000000
+5,American Samoa,ASM,Pago Pago,USD,US Dollar,.as,Oceania,Polynesia,-14.33333333,-170.00000000
+6,Andorra,AND,Andorra la Vella,EUR,Euro,.ad,Europe,Southern Europe,42.50000000,1.50000000
+7,Angola,AGO,Luanda,AOA,Angolan kwanza,.ao,Africa,Middle Africa,-12.50000000,18.50000000
+8,Anguilla,AIA,The Valley,XCD,East Caribbean dollar,.ai,Americas,Caribbean,18.25000000,-63.16666666
+9,Antarctica,ATA,,AAD,Antarctican dollar,.aq,Polar,,-74.65000000,4.48000000
+10,Antigua And Barbuda,ATG,St. John's,XCD,Eastern Caribbean dollar,.ag,Americas,Caribbean,17.05000000,-61.80000000
+11,Argentina,ARG,Buenos Aires,ARS,Argentine peso,.ar,Americas,South America,-34.00000000,-64.00000000
+12,Armenia,ARM,Yerevan,AMD,Armenian dram,.am,Asia,Western Asia,40.00000000,45.00000000
+13,Aruba,ABW,Oranjestad,AWG,Aruban florin,.aw,Americas,Caribbean,12.50000000,-69.96666666
+14,Australia,AUS,Canberra,AUD,Australian dollar,.au,Oceania,Australia and New Zealand,-27.00000000,133.00000000
+15,Austria,AUT,Vienna,EUR,Euro,.at,Europe,Western Europe,47.33333333,13.33333333
+16,Azerbaijan,AZE,Baku,AZN,Azerbaijani manat,.az,Asia,Western Asia,40.50000000,47.50000000
+18,Bahrain,BHR,Manama,BHD,Bahraini dinar,.bh,Asia,Western Asia,26.00000000,50.55000000
+19,Bangladesh,BGD,Dhaka,BDT,Bangladeshi taka,.bd,Asia,Southern Asia,24.00000000,90.00000000
+20,Barbados,BRB,Bridgetown,BBD,Barbadian dollar,.bb,Americas,Caribbean,13.16666666,-59.53333333
+21,Belarus,BLR,Minsk,BYN,Belarusian ruble,.by,Europe,Eastern Europe,53.00000000,28.00000000
+22,Belgium,BEL,Brussels,EUR,Euro,.be,Europe,Western Europe,50.83333333,4.00000000
+23,Belize,BLZ,Belmopan,BZD,Belize dollar,.bz,Americas,Central America,17.25000000,-88.75000000
+24,Benin,BEN,Porto-Novo,XOF,West African CFA franc,.bj,Africa,Western Africa,9.50000000,2.25000000
+25,Bermuda,BMU,Hamilton,BMD,Bermudian dollar,.bm,Americas,Northern America,32.33333333,-64.75000000
+26,Bhutan,BTN,Thimphu,BTN,Bhutanese ngultrum,.bt,Asia,Southern Asia,27.50000000,90.50000000
+27,Bolivia,BOL,Sucre,BOB,Bolivian boliviano,.bo,Americas,South America,-17.00000000,-65.00000000
+155,"Bonaire, Sint Eustatius and Saba",BES,Kralendijk,USD,United States dollar,.an,Americas,Caribbean,12.15000000,-68.26666700
+28,Bosnia and Herzegovina,BIH,Sarajevo,BAM,Bosnia and Herzegovina convertible mark,.ba,Europe,Southern Europe,44.00000000,18.00000000
+29,Botswana,BWA,Gaborone,BWP,Botswana pula,.bw,Africa,Southern Africa,-22.00000000,24.00000000
+30,Bouvet Island,BVT,,NOK,Norwegian Krone,.bv,,,-54.43333333,3.40000000
+31,Brazil,BRA,Brasilia,BRL,Brazilian real,.br,Americas,South America,-10.00000000,-55.00000000
+32,British Indian Ocean Territory,IOT,Diego Garcia,USD,United States dollar,.io,Africa,Eastern Africa,-6.00000000,71.50000000
+33,Brunei,BRN,Bandar Seri Begawan,BND,Brunei dollar,.bn,Asia,South-Eastern Asia,4.50000000,114.66666666
+34,Bulgaria,BGR,Sofia,BGN,Bulgarian lev,.bg,Europe,Eastern Europe,43.00000000,25.00000000
+35,Burkina Faso,BFA,Ouagadougou,XOF,West African CFA franc,.bf,Africa,Western Africa,13.00000000,-2.00000000
+36,Burundi,BDI,Bujumbura,BIF,Burundian franc,.bi,Africa,Eastern Africa,-3.50000000,30.00000000
+37,Cambodia,KHM,Phnom Penh,KHR,Cambodian riel,.kh,Asia,South-Eastern Asia,13.00000000,105.00000000
+38,Cameroon,CMR,Yaounde,XAF,Central African CFA franc,.cm,Africa,Middle Africa,6.00000000,12.00000000
+39,Canada,CAN,Ottawa,CAD,Canadian dollar,.ca,Americas,Northern America,60.00000000,-95.00000000
+40,Cape Verde,CPV,Praia,CVE,Cape Verdean escudo,.cv,Africa,Western Africa,16.00000000,-24.00000000
+41,Cayman Islands,CYM,George Town,KYD,Cayman Islands dollar,.ky,Americas,Caribbean,19.50000000,-80.50000000
+42,Central African Republic,CAF,Bangui,XAF,Central African CFA franc,.cf,Africa,Middle Africa,7.00000000,21.00000000
+43,Chad,TCD,N'Djamena,XAF,Central African CFA franc,.td,Africa,Middle Africa,15.00000000,19.00000000
+44,Chile,CHL,Santiago,CLP,Chilean peso,.cl,Americas,South America,-30.00000000,-71.00000000
+45,China,CHN,Beijing,CNY,Chinese yuan,.cn,Asia,Eastern Asia,35.00000000,105.00000000
+46,Christmas Island,CXR,Flying Fish Cove,AUD,Australian dollar,.cx,Oceania,Australia and New Zealand,-10.50000000,105.66666666
+47,Cocos (Keeling) Islands,CCK,West Island,AUD,Australian dollar,.cc,Oceania,Australia and New Zealand,-12.50000000,96.83333333
+48,Colombia,COL,Bogotá,COP,Colombian peso,.co,Americas,South America,4.00000000,-72.00000000
+49,Comoros,COM,Moroni,KMF,Comorian franc,.km,Africa,Eastern Africa,-12.16666666,44.25000000
+50,Congo,COG,Brazzaville,XAF,Central African CFA franc,.cg,Africa,Middle Africa,-1.00000000,15.00000000
+52,Cook Islands,COK,Avarua,NZD,Cook Islands dollar,.ck,Oceania,Polynesia,-21.23333333,-159.76666666
+53,Costa Rica,CRI,San Jose,CRC,Costa Rican colón,.cr,Americas,Central America,10.00000000,-84.00000000
+54,Cote D'Ivoire (Ivory Coast),CIV,Yamoussoukro,XOF,West African CFA franc,.ci,Africa,Western Africa,8.00000000,-5.00000000
+55,Croatia,HRV,Zagreb,HRK,Croatian kuna,.hr,Europe,Southern Europe,45.16666666,15.50000000
+56,Cuba,CUB,Havana,CUP,Cuban peso,.cu,Americas,Caribbean,21.50000000,-80.00000000
+249,Curaçao,CUW,Willemstad,ANG,Netherlands Antillean guilder,.cw,Americas,Caribbean,12.11666700,-68.93333300
+57,Cyprus,CYP,Nicosia,EUR,Euro,.cy,Europe,Southern Europe,35.00000000,33.00000000
+58,Czech Republic,CZE,Prague,CZK,Czech koruna,.cz,Europe,Eastern Europe,49.75000000,15.50000000
+51,Democratic Republic of the Congo,COD,Kinshasa,CDF,Congolese Franc,.cd,Africa,Middle Africa,0.00000000,25.00000000
+59,Denmark,DNK,Copenhagen,DKK,Danish krone,.dk,Europe,Northern Europe,56.00000000,10.00000000
+60,Djibouti,DJI,Djibouti,DJF,Djiboutian franc,.dj,Africa,Eastern Africa,11.50000000,43.00000000
+61,Dominica,DMA,Roseau,XCD,Eastern Caribbean dollar,.dm,Americas,Caribbean,15.41666666,-61.33333333
+62,Dominican Republic,DOM,Santo Domingo,DOP,Dominican peso,.do,Americas,Caribbean,19.00000000,-70.66666666
+63,East Timor,TLS,Dili,USD,United States dollar,.tl,Asia,South-Eastern Asia,-8.83333333,125.91666666
+64,Ecuador,ECU,Quito,USD,United States dollar,.ec,Americas,South America,-2.00000000,-77.50000000
+65,Egypt,EGY,Cairo,EGP,Egyptian pound,.eg,Africa,Northern Africa,27.00000000,30.00000000
+66,El Salvador,SLV,San Salvador,USD,United States dollar,.sv,Americas,Central America,13.83333333,-88.91666666
+67,Equatorial Guinea,GNQ,Malabo,XAF,Central African CFA franc,.gq,Africa,Middle Africa,2.00000000,10.00000000
+68,Eritrea,ERI,Asmara,ERN,Eritrean nakfa,.er,Africa,Eastern Africa,15.00000000,39.00000000
+69,Estonia,EST,Tallinn,EUR,Euro,.ee,Europe,Northern Europe,59.00000000,26.00000000
+70,Ethiopia,ETH,Addis Ababa,ETB,Ethiopian birr,.et,Africa,Eastern Africa,8.00000000,38.00000000
+71,Falkland Islands,FLK,Stanley,FKP,Falkland Islands pound,.fk,Americas,South America,-51.75000000,-59.00000000
+72,Faroe Islands,FRO,Torshavn,DKK,Danish krone,.fo,Europe,Northern Europe,62.00000000,-7.00000000
+73,Fiji Islands,FJI,Suva,FJD,Fijian dollar,.fj,Oceania,Melanesia,-18.00000000,175.00000000
+74,Finland,FIN,Helsinki,EUR,Euro,.fi,Europe,Northern Europe,64.00000000,26.00000000
+75,France,FRA,Paris,EUR,Euro,.fr,Europe,Western Europe,46.00000000,2.00000000
+76,French Guiana,GUF,Cayenne,EUR,Euro,.gf,Americas,South America,4.00000000,-53.00000000
+77,French Polynesia,PYF,Papeete,XPF,CFP franc,.pf,Oceania,Polynesia,-15.00000000,-140.00000000
+78,French Southern Territories,ATF,Port-aux-Francais,EUR,Euro,.tf,Africa,Southern Africa,-49.25000000,69.16700000
+79,Gabon,GAB,Libreville,XAF,Central African CFA franc,.ga,Africa,Middle Africa,-1.00000000,11.75000000
+80,Gambia The,GMB,Banjul,GMD,Gambian dalasi,.gm,Africa,Western Africa,13.46666666,-16.56666666
+81,Georgia,GEO,Tbilisi,GEL,Georgian lari,.ge,Asia,Western Asia,42.00000000,43.50000000
+82,Germany,DEU,Berlin,EUR,Euro,.de,Europe,Western Europe,51.00000000,9.00000000
+83,Ghana,GHA,Accra,GHS,Ghanaian cedi,.gh,Africa,Western Africa,8.00000000,-2.00000000
+84,Gibraltar,GIB,Gibraltar,GIP,Gibraltar pound,.gi,Europe,Southern Europe,36.13333333,-5.35000000
+85,Greece,GRC,Athens,EUR,Euro,.gr,Europe,Southern Europe,39.00000000,22.00000000
+86,Greenland,GRL,Nuuk,DKK,Danish krone,.gl,Americas,Northern America,72.00000000,-40.00000000
+87,Grenada,GRD,St. George's,XCD,Eastern Caribbean dollar,.gd,Americas,Caribbean,12.11666666,-61.66666666
+88,Guadeloupe,GLP,Basse-Terre,EUR,Euro,.gp,Americas,Caribbean,16.25000000,-61.58333300
+89,Guam,GUM,Hagatna,USD,US Dollar,.gu,Oceania,Micronesia,13.46666666,144.78333333
+90,Guatemala,GTM,Guatemala City,GTQ,Guatemalan quetzal,.gt,Americas,Central America,15.50000000,-90.25000000
+91,Guernsey and Alderney,GGY,St Peter Port,GBP,British pound,.gg,Europe,Northern Europe,49.46666666,-2.58333333
+92,Guinea,GIN,Conakry,GNF,Guinean franc,.gn,Africa,Western Africa,11.00000000,-10.00000000
+93,Guinea-Bissau,GNB,Bissau,XOF,West African CFA franc,.gw,Africa,Western Africa,12.00000000,-15.00000000
+94,Guyana,GUY,Georgetown,GYD,Guyanese dollar,.gy,Americas,South America,5.00000000,-59.00000000
+95,Haiti,HTI,Port-au-Prince,HTG,Haitian gourde,.ht,Americas,Caribbean,19.00000000,-72.41666666
+96,Heard Island and McDonald Islands,HMD,,AUD,Australian dollar,.hm,,,-53.10000000,72.51666666
+97,Honduras,HND,Tegucigalpa,HNL,Honduran lempira,.hn,Americas,Central America,15.00000000,-86.50000000
+98,Hong Kong S.A.R.,HKG,Hong Kong,HKD,Hong Kong dollar,.hk,Asia,Eastern Asia,22.25000000,114.16666666
+99,Hungary,HUN,Budapest,HUF,Hungarian forint,.hu,Europe,Eastern Europe,47.00000000,20.00000000
+100,Iceland,ISL,Reykjavik,ISK,Icelandic króna,.is,Europe,Northern Europe,65.00000000,-18.00000000
+101,India,IND,New Delhi,INR,Indian rupee,.in,Asia,Southern Asia,20.00000000,77.00000000
+102,Indonesia,IDN,Jakarta,IDR,Indonesian rupiah,.id,Asia,South-Eastern Asia,-5.00000000,120.00000000
+103,Iran,IRN,Tehran,IRR,Iranian rial,.ir,Asia,Southern Asia,32.00000000,53.00000000
+104,Iraq,IRQ,Baghdad,IQD,Iraqi dinar,.iq,Asia,Western Asia,33.00000000,44.00000000
+105,Ireland,IRL,Dublin,EUR,Euro,.ie,Europe,Northern Europe,53.00000000,-8.00000000
+106,Israel,ISR,Jerusalem,ILS,Israeli new shekel,.il,Asia,Western Asia,31.50000000,34.75000000
+107,Italy,ITA,Rome,EUR,Euro,.it,Europe,Southern Europe,42.83333333,12.83333333
+108,Jamaica,JAM,Kingston,JMD,Jamaican dollar,.jm,Americas,Caribbean,18.25000000,-77.50000000
+109,Japan,JPN,Tokyo,JPY,Japanese yen,.jp,Asia,Eastern Asia,36.00000000,138.00000000
+110,Jersey,JEY,Saint Helier,GBP,British pound,.je,Europe,Northern Europe,49.25000000,-2.16666666
+111,Jordan,JOR,Amman,JOD,Jordanian dinar,.jo,Asia,Western Asia,31.00000000,36.00000000
+112,Kazakhstan,KAZ,Astana,KZT,Kazakhstani tenge,.kz,Asia,Central Asia,48.00000000,68.00000000
+113,Kenya,KEN,Nairobi,KES,Kenyan shilling,.ke,Africa,Eastern Africa,1.00000000,38.00000000
+114,Kiribati,KIR,Tarawa,AUD,Australian dollar,.ki,Oceania,Micronesia,1.41666666,173.00000000
+248,Kosovo,XKX,Pristina,EUR,Euro,.xk,Europe,Eastern Europe,42.56129090,20.34030350
+117,Kuwait,KWT,Kuwait City,KWD,Kuwaiti dinar,.kw,Asia,Western Asia,29.50000000,45.75000000
+118,Kyrgyzstan,KGZ,Bishkek,KGS,Kyrgyzstani som,.kg,Asia,Central Asia,41.00000000,75.00000000
+119,Laos,LAO,Vientiane,LAK,Lao kip,.la,Asia,South-Eastern Asia,18.00000000,105.00000000
+120,Latvia,LVA,Riga,EUR,Euro,.lv,Europe,Northern Europe,57.00000000,25.00000000
+121,Lebanon,LBN,Beirut,LBP,Lebanese pound,.lb,Asia,Western Asia,33.83333333,35.83333333
+122,Lesotho,LSO,Maseru,LSL,Lesotho loti,.ls,Africa,Southern Africa,-29.50000000,28.50000000
+123,Liberia,LBR,Monrovia,LRD,Liberian dollar,.lr,Africa,Western Africa,6.50000000,-9.50000000
+124,Libya,LBY,Tripolis,LYD,Libyan dinar,.ly,Africa,Northern Africa,25.00000000,17.00000000
+125,Liechtenstein,LIE,Vaduz,CHF,Swiss franc,.li,Europe,Western Europe,47.26666666,9.53333333
+126,Lithuania,LTU,Vilnius,EUR,Euro,.lt,Europe,Northern Europe,56.00000000,24.00000000
+127,Luxembourg,LUX,Luxembourg,EUR,Euro,.lu,Europe,Western Europe,49.75000000,6.16666666
+128,Macau S.A.R.,MAC,Macao,MOP,Macanese pataca,.mo,Asia,Eastern Asia,22.16666666,113.55000000
+129,Macedonia,MKD,Skopje,MKD,Denar,.mk,Europe,Southern Europe,41.83333333,22.00000000
+130,Madagascar,MDG,Antananarivo,MGA,Malagasy ariary,.mg,Africa,Eastern Africa,-20.00000000,47.00000000
+131,Malawi,MWI,Lilongwe,MWK,Malawian kwacha,.mw,Africa,Eastern Africa,-13.50000000,34.00000000
+132,Malaysia,MYS,Kuala Lumpur,MYR,Malaysian ringgit,.my,Asia,South-Eastern Asia,2.50000000,112.50000000
+133,Maldives,MDV,Male,MVR,Maldivian rufiyaa,.mv,Asia,Southern Asia,3.25000000,73.00000000
+134,Mali,MLI,Bamako,XOF,West African CFA franc,.ml,Africa,Western Africa,17.00000000,-4.00000000
+135,Malta,MLT,Valletta,EUR,Euro,.mt,Europe,Southern Europe,35.83333333,14.58333333
+136,Man (Isle of),IMN,"Douglas, Isle of Man",GBP,British pound,.im,Europe,Northern Europe,54.25000000,-4.50000000
+137,Marshall Islands,MHL,Majuro,USD,United States dollar,.mh,Oceania,Micronesia,9.00000000,168.00000000
+138,Martinique,MTQ,Fort-de-France,EUR,Euro,.mq,Americas,Caribbean,14.66666700,-61.00000000
+139,Mauritania,MRT,Nouakchott,MRO,Mauritanian ouguiya,.mr,Africa,Western Africa,20.00000000,-12.00000000
+140,Mauritius,MUS,Port Louis,MUR,Mauritian rupee,.mu,Africa,Eastern Africa,-20.28333333,57.55000000
+141,Mayotte,MYT,Mamoudzou,EUR,Euro,.yt,Africa,Eastern Africa,-12.83333333,45.16666666
+142,Mexico,MEX,Ciudad de México,MXN,Mexican peso,.mx,Americas,Central America,23.00000000,-102.00000000
+143,Micronesia,FSM,Palikir,USD,United States dollar,.fm,Oceania,Micronesia,6.91666666,158.25000000
+144,Moldova,MDA,Chisinau,MDL,Moldovan leu,.md,Europe,Eastern Europe,47.00000000,29.00000000
+145,Monaco,MCO,Monaco,EUR,Euro,.mc,Europe,Western Europe,43.73333333,7.40000000
+146,Mongolia,MNG,Ulan Bator,MNT,Mongolian tögrög,.mn,Asia,Eastern Asia,46.00000000,105.00000000
+147,Montenegro,MNE,Podgorica,EUR,Euro,.me,Europe,Southern Europe,42.50000000,19.30000000
+148,Montserrat,MSR,Plymouth,XCD,Eastern Caribbean dollar,.ms,Americas,Caribbean,16.75000000,-62.20000000
+149,Morocco,MAR,Rabat,MAD,Moroccan dirham,.ma,Africa,Northern Africa,32.00000000,-5.00000000
+150,Mozambique,MOZ,Maputo,MZN,Mozambican metical,.mz,Africa,Eastern Africa,-18.25000000,35.00000000
+151,Myanmar,MMR,Nay Pyi Taw,MMK,Burmese kyat,.mm,Asia,South-Eastern Asia,22.00000000,98.00000000
+152,Namibia,NAM,Windhoek,NAD,Namibian dollar,.na,Africa,Southern Africa,-22.00000000,17.00000000
+153,Nauru,NRU,Yaren,AUD,Australian dollar,.nr,Oceania,Micronesia,-0.53333333,166.91666666
+154,Nepal,NPL,Kathmandu,NPR,Nepalese rupee,.np,Asia,Southern Asia,28.00000000,84.00000000
+156,Netherlands,NLD,Amsterdam,EUR,Euro,.nl,Europe,Western Europe,52.50000000,5.75000000
+157,New Caledonia,NCL,Noumea,XPF,CFP franc,.nc,Oceania,Melanesia,-21.50000000,165.50000000
+158,New Zealand,NZL,Wellington,NZD,New Zealand dollar,.nz,Oceania,Australia and New Zealand,-41.00000000,174.00000000
+159,Nicaragua,NIC,Managua,NIO,Nicaraguan córdoba,.ni,Americas,Central America,13.00000000,-85.00000000
+160,Niger,NER,Niamey,XOF,West African CFA franc,.ne,Africa,Western Africa,16.00000000,8.00000000
+161,Nigeria,NGA,Abuja,NGN,Nigerian naira,.ng,Africa,Western Africa,10.00000000,8.00000000
+162,Niue,NIU,Alofi,NZD,New Zealand dollar,.nu,Oceania,Polynesia,-19.03333333,-169.86666666
+163,Norfolk Island,NFK,Kingston,AUD,Australian dollar,.nf,Oceania,Australia and New Zealand,-29.03333333,167.95000000
+115,North Korea,PRK,Pyongyang,KPW,North Korean Won,.kp,Asia,Eastern Asia,40.00000000,127.00000000
+164,Northern Mariana Islands,MNP,Saipan,USD,United States dollar,.mp,Oceania,Micronesia,15.20000000,145.75000000
+165,Norway,NOR,Oslo,NOK,Norwegian krone,.no,Europe,Northern Europe,62.00000000,10.00000000
+166,Oman,OMN,Muscat,OMR,Omani rial,.om,Asia,Western Asia,21.00000000,57.00000000
+167,Pakistan,PAK,Islamabad,PKR,Pakistani rupee,.pk,Asia,Southern Asia,30.00000000,70.00000000
+168,Palau,PLW,Melekeok,USD,United States dollar,.pw,Oceania,Micronesia,7.50000000,134.50000000
+169,Palestinian Territory Occupied,PSE,East Jerusalem,ILS,Israeli new shekel,.ps,Asia,Western Asia,31.90000000,35.20000000
+170,Panama,PAN,Panama City,PAB,Panamanian balboa,.pa,Americas,Central America,9.00000000,-80.00000000
+171,Papua new Guinea,PNG,Port Moresby,PGK,Papua New Guinean kina,.pg,Oceania,Melanesia,-6.00000000,147.00000000
+172,Paraguay,PRY,Asuncion,PYG,Paraguayan guarani,.py,Americas,South America,-23.00000000,-58.00000000
+173,Peru,PER,Lima,PEN,Peruvian sol,.pe,Americas,South America,-10.00000000,-76.00000000
+174,Philippines,PHL,Manila,PHP,Philippine peso,.ph,Asia,South-Eastern Asia,13.00000000,122.00000000
+175,Pitcairn Island,PCN,Adamstown,NZD,New Zealand dollar,.pn,Oceania,Polynesia,-25.06666666,-130.10000000
+176,Poland,POL,Warsaw,PLN,Polish złoty,.pl,Europe,Eastern Europe,52.00000000,20.00000000
+177,Portugal,PRT,Lisbon,EUR,Euro,.pt,Europe,Southern Europe,39.50000000,-8.00000000
+178,Puerto Rico,PRI,San Juan,USD,United States dollar,.pr,Americas,Caribbean,18.25000000,-66.50000000
+179,Qatar,QAT,Doha,QAR,Qatari riyal,.qa,Asia,Western Asia,25.50000000,51.25000000
+180,Reunion,REU,Saint-Denis,EUR,Euro,.re,Africa,Eastern Africa,-21.15000000,55.50000000
+181,Romania,ROU,Bucharest,RON,Romanian leu,.ro,Europe,Eastern Europe,46.00000000,25.00000000
+182,Russia,RUS,Moscow,RUB,Russian ruble,.ru,Europe,Eastern Europe,60.00000000,100.00000000
+183,Rwanda,RWA,Kigali,RWF,Rwandan franc,.rw,Africa,Eastern Africa,-2.00000000,30.00000000
+184,Saint Helena,SHN,Jamestown,SHP,Saint Helena pound,.sh,Africa,Western Africa,-15.95000000,-5.70000000
+185,Saint Kitts And Nevis,KNA,Basseterre,XCD,Eastern Caribbean dollar,.kn,Americas,Caribbean,17.33333333,-62.75000000
+186,Saint Lucia,LCA,Castries,XCD,Eastern Caribbean dollar,.lc,Americas,Caribbean,13.88333333,-60.96666666
+187,Saint Pierre and Miquelon,SPM,Saint-Pierre,EUR,Euro,.pm,Americas,Northern America,46.83333333,-56.33333333
+188,Saint Vincent And The Grenadines,VCT,Kingstown,XCD,Eastern Caribbean dollar,.vc,Americas,Caribbean,13.25000000,-61.20000000
+189,Saint-Barthelemy,BLM,Gustavia,EUR,Euro,.bl,Americas,Caribbean,18.50000000,-63.41666666
+190,Saint-Martin (French part),MAF,Marigot,EUR,Euro,.mf,Americas,Caribbean,18.08333333,-63.95000000
+191,Samoa,WSM,Apia,WST,Samoan tālā,.ws,Oceania,Polynesia,-13.58333333,-172.33333333
+192,San Marino,SMR,San Marino,EUR,Euro,.sm,Europe,Southern Europe,43.76666666,12.41666666
+193,Sao Tome and Principe,STP,Sao Tome,STD,Dobra,.st,Africa,Middle Africa,1.00000000,7.00000000
+194,Saudi Arabia,SAU,Riyadh,SAR,Saudi riyal,.sa,Asia,Western Asia,25.00000000,45.00000000
+195,Senegal,SEN,Dakar,XOF,West African CFA franc,.sn,Africa,Western Africa,14.00000000,-14.00000000
+196,Serbia,SRB,Belgrade,RSD,Serbian dinar,.rs,Europe,Southern Europe,44.00000000,21.00000000
+197,Seychelles,SYC,Victoria,SCR,Seychellois rupee,.sc,Africa,Eastern Africa,-4.58333333,55.66666666
+198,Sierra Leone,SLE,Freetown,SLL,Sierra Leonean leone,.sl,Africa,Western Africa,8.50000000,-11.50000000
+199,Singapore,SGP,Singapur,SGD,Singapore dollar,.sg,Asia,South-Eastern Asia,1.36666666,103.80000000
+250,Sint Maarten (Dutch part),SXM,Philipsburg,ANG,Netherlands Antillean guilder,.sx,Americas,Caribbean,18.03333300,-63.05000000
+200,Slovakia,SVK,Bratislava,EUR,Euro,.sk,Europe,Eastern Europe,48.66666666,19.50000000
+201,Slovenia,SVN,Ljubljana,EUR,Euro,.si,Europe,Southern Europe,46.11666666,14.81666666
+202,Solomon Islands,SLB,Honiara,SBD,Solomon Islands dollar,.sb,Oceania,Melanesia,-8.00000000,159.00000000
+203,Somalia,SOM,Mogadishu,SOS,Somali shilling,.so,Africa,Eastern Africa,10.00000000,49.00000000
+204,South Africa,ZAF,Pretoria,ZAR,South African rand,.za,Africa,Southern Africa,-29.00000000,24.00000000
+205,South Georgia,SGS,Grytviken,GBP,British pound,.gs,Americas,South America,-54.50000000,-37.00000000
+116,South Korea,KOR,Seoul,KRW,Won,.kr,Asia,Eastern Asia,37.00000000,127.50000000
+206,South Sudan,SSD,Juba,SSP,South Sudanese pound,.ss,Africa,Middle Africa,7.00000000,30.00000000
+207,Spain,ESP,Madrid,EUR,Euro,.es,Europe,Southern Europe,40.00000000,-4.00000000
+208,Sri Lanka,LKA,Colombo,LKR,Sri Lankan rupee,.lk,Asia,Southern Asia,7.00000000,81.00000000
+209,Sudan,SDN,Khartoum,SDG,Sudanese pound,.sd,Africa,Northern Africa,15.00000000,30.00000000
+210,Suriname,SUR,Paramaribo,SRD,Surinamese dollar,.sr,Americas,South America,4.00000000,-56.00000000
+211,Svalbard And Jan Mayen Islands,SJM,Longyearbyen,NOK,Norwegian Krone,.sj,Europe,Northern Europe,78.00000000,20.00000000
+212,Swaziland,SWZ,Mbabane,SZL,Lilangeni,.sz,Africa,Southern Africa,-26.50000000,31.50000000
+213,Sweden,SWE,Stockholm,SEK,Swedish krona,.se,Europe,Northern Europe,62.00000000,15.00000000
+214,Switzerland,CHE,Bern,CHF,Swiss franc,.ch,Europe,Western Europe,47.00000000,8.00000000
+215,Syria,SYR,Damascus,SYP,Syrian pound,.sy,Asia,Western Asia,35.00000000,38.00000000
+216,Taiwan,TWN,Taipei,TWD,New Taiwan dollar,.tw,Asia,Eastern Asia,23.50000000,121.00000000
+217,Tajikistan,TJK,Dushanbe,TJS,Tajikistani somoni,.tj,Asia,Central Asia,39.00000000,71.00000000
+218,Tanzania,TZA,Dodoma,TZS,Tanzanian shilling,.tz,Africa,Eastern Africa,-6.00000000,35.00000000
+219,Thailand,THA,Bangkok,THB,Thai baht,.th,Asia,South-Eastern Asia,15.00000000,100.00000000
+17,The Bahamas,BHS,Nassau,BSD,Bahamian dollar,.bs,Americas,Caribbean,24.25000000,-76.00000000
+220,Togo,TGO,Lome,XOF,West African CFA franc,.tg,Africa,Western Africa,8.00000000,1.16666666
+221,Tokelau,TKL,,NZD,New Zealand dollar,.tk,Oceania,Polynesia,-9.00000000,-172.00000000
+222,Tonga,TON,Nuku'alofa,TOP,Tongan paʻanga,.to,Oceania,Polynesia,-20.00000000,-175.00000000
+223,Trinidad And Tobago,TTO,Port of Spain,TTD,Trinidad and Tobago dollar,.tt,Americas,Caribbean,11.00000000,-61.00000000
+224,Tunisia,TUN,Tunis,TND,Tunisian dinar,.tn,Africa,Northern Africa,34.00000000,9.00000000
+225,Turkey,TUR,Ankara,TRY,Turkish lira,.tr,Asia,Western Asia,39.00000000,35.00000000
+226,Turkmenistan,TKM,Ashgabat,TMT,Turkmenistan manat,.tm,Asia,Central Asia,40.00000000,60.00000000
+227,Turks And Caicos Islands,TCA,Cockburn Town,USD,United States dollar,.tc,Americas,Caribbean,21.75000000,-71.58333333
+228,Tuvalu,TUV,Funafuti,AUD,Australian dollar,.tv,Oceania,Polynesia,-8.00000000,178.00000000
+229,Uganda,UGA,Kampala,UGX,Ugandan shilling,.ug,Africa,Eastern Africa,1.00000000,32.00000000
+230,Ukraine,UKR,Kiev,UAH,Ukrainian hryvnia,.ua,Europe,Eastern Europe,49.00000000,32.00000000
+231,United Arab Emirates,ARE,Abu Dhabi,AED,United Arab Emirates dirham,.ae,Asia,Western Asia,24.00000000,54.00000000
+232,United Kingdom,GBR,London,GBP,British pound,.uk,Europe,Northern Europe,54.00000000,-2.00000000
+233,United States,USA,Washington,USD,United States dollar,.us,Americas,Northern America,38.00000000,-97.00000000
+234,United States Minor Outlying Islands,UMI,,USD,United States dollar,.us,Americas,Northern America,0.00000000,0.00000000
+235,Uruguay,URY,Montevideo,UYU,Uruguayan peso,.uy,Americas,South America,-33.00000000,-56.00000000
+236,Uzbekistan,UZB,Tashkent,UZS,Uzbekistani soʻm,.uz,Asia,Central Asia,41.00000000,64.00000000
+237,Vanuatu,VUT,Port Vila,VUV,Vanuatu vatu,.vu,Oceania,Melanesia,-16.00000000,167.00000000
+238,Vatican City State (Holy See),VAT,Vatican City,EUR,Euro,.va,Europe,Southern Europe,41.90000000,12.45000000
+239,Venezuela,VEN,Caracas,VEF,Bolívar,.ve,Americas,South America,8.00000000,-66.00000000
+240,Vietnam,VNM,Hanoi,VND,Vietnamese đồng,.vn,Asia,South-Eastern Asia,16.16666666,107.83333333
+241,Virgin Islands (British),VGB,Road Town,USD,United States dollar,.vg,Americas,Caribbean,18.43138300,-64.62305000
+242,Virgin Islands (US),VIR,Charlotte Amalie,USD,United States dollar,.vi,Americas,Caribbean,18.34000000,-64.93000000
+243,Wallis And Futuna Islands,WLF,Mata Utu,XPF,CFP franc,.wf,Oceania,Polynesia,-13.30000000,-176.20000000
+244,Western Sahara,ESH,El-Aaiun,MAD,Moroccan Dirham,.eh,Africa,Northern Africa,24.50000000,-13.00000000
+245,Yemen,YEM,Sanaa,YER,Yemeni rial,.ye,Asia,Western Asia,15.00000000,48.00000000
+246,Zambia,ZMB,Lusaka,ZMW,Zambian kwacha,.zm,Africa,Eastern Africa,-15.00000000,30.00000000
+247,Zimbabwe,ZWE,Harare,ZWL,Zimbabwe Dollar,.zw,Africa,Eastern Africa,-20.00000000,30.00000000
