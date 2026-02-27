@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Documentación de mi API</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body class="container">
+    <h1 class="text-center">Mi API en Express.js</h1>
+    <div class="container">
+      <h2>Productos:</h2>
+      <div class="row" id="products"></div>
+    </div>
+
+    <script>
+      const getProductos = async () => {
+        const res = await fetch("http://localhost:3000/products");
+        const data = await res.json();
+        console.log(data);
+        return data;
+      };
+
+      const renderProducts = async () => {
+        const productsDiv = document.querySelector("#products");
+
+        const products = await getProductos();
+        let temp = "";
+        products.forEach(
+          (p) =>
+            (temp += `  <div class="col">
+                <h3>${p.title}</h3>
+                <h4>${p.price}</h4>
+
+            </div>
+            `),
+        );
+        productsDiv.innerHTML = temp;
+      };
+      renderProducts()
+    </script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
